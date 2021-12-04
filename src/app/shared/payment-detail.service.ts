@@ -9,7 +9,7 @@ export class PaymentDetailService {
 
   constructor(private http: HttpClient) { }
 
-  readonly baseURL = 'https://paymentapi2021.azurewebsites.net/api/paymentDetail'
+  readonly baseURL = 'https://paymentapi202101.azurewebsites.net/api/paymentdetail'
   formData: PaymentDetail = new PaymentDetail();
   list: PaymentDetail[];
 
